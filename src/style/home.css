@@ -1,9 +1,19 @@
 :root {
     --branco: #FFFFFF;
+    --branco-gelo: #F6F9FF;
     --azul-acizentado: #B1BCD2;
     --lilas: #B08EFF;
     --amarelo: #FFD753;
     --vermelho: #FF7E7E;
+}
+
+body {
+    background-color: var(--branco-gelo);
+}
+
+nav {
+    background-color: var(--branco);
+    border-bottom: solid 2px var(--azul-acizentado);
 }
 
 h1 {
@@ -34,6 +44,11 @@ img {
     border: solid 1px var(--azul-acizentado);
     border-start-end-radius: 19px;
     border-end-end-radius: 19px;
+}
+
+.tarefa {
+    background-color: var(--branco);
+    border-radius: 4px;
 }
 
 .btn-tarefa-concluida {
