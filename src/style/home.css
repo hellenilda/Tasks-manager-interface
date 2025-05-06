@@ -1,0 +1,66 @@
+:root {
+    --branco: #FFFFFF;
+    --azul-acizentado: #B1BCD2;
+    --lilas: #B08EFF;
+    --amarelo: #FFD753;
+    --vermelho: #FF7E7E;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background-color: var(--lilas);
+    color: var(--branco);
+}
+
+img {
+    height: 26px;
+}
+
+.pesquisar {
+    border: solid 1px var(--azul-acizentado);
+    border-start-start-radius: 19px;
+    border-end-start-radius: 19px;
+    height: 51px;
+}
+
+.btn-pesquisar {
+    border: solid 1px var(--azul-acizentado);
+    border-start-end-radius: 19px;
+    border-end-end-radius: 19px;
+}
+
+.btn-tarefa-concluida {
+    border: solid 1px var(--azul-acizentado);
+    height: 20px;
+}
+
+.btn-editar-tarefa {
+    background-color: var(--amarelo);
+    border-radius: 4px;
+}
+
+.btn-editar-tarefa:hover {
+    cursor: pointer;
+}
+
+.btn-remover-tarefa {
+    background-color: var(--vermelho);
+    border-radius: 4px;
+}
+
+.btn-remover-tarefa:hover {
+    cursor: pointer;
+}
+
+.btn-adicionar {
+    border: none;
+    border-radius: 10px;
+    font-size: 20px; 
+}
